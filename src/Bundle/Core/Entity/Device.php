@@ -28,6 +28,10 @@ class Device
      */
     private PlatformInterface $platform;
 
+    private StateInterface $state;
+
+    private PropertiesInterface $properties;
+
     /**
      * @ORM\Column(type="string")
      */

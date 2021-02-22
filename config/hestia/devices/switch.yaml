@@ -1,0 +1,9 @@
+switch:
+  - key: light.living_room
+    platform: mqtt
+    location: living-room
+    group: living-room
+    state_topic: switch1/stat/POWER1
+    command_topic: switch1/cmnd/POWER1
+    payload_on: 'on'
+    payload_off: 'off'
